@@ -1,0 +1,54 @@
+#blog
+{
+	.content-blog
+	{
+		background-color:#222222;
+	}
+
+	/******************RIGHT SIDEBAR STYLING ******************/
+	.right-sidebar
+	{
+		min-height: 100%;
+	}
+
+
+	/************************CENTER CONTENT********************/
+	.bg-blog{
+		background-repeat:no-repeat;
+		background-size:cover;
+		margin: 0;
+		padding: 0;
+	}
+
+	.bg-white
+	{
+		background: white;
+	}
+
+	/****************MOBILE*******************/
+	@media(max-width: 768px) {
+	    
+	    .blog-mobile-content > div
+	    {
+	   		min-height: 200px;
+	    }
+
+	    .blog-right-navbar
+	    {
+	    	background-color: #525252;
+		    ul li
+		    {
+		    	display: inline-block;
+		    	min-width: 50px;
+		    	text-align: center;
+		    }
+		    ul li a span
+		    {
+		    	display: block;
+		    	margin: 0 auto;
+		    }
+	    }
+
+	}
+	
+}

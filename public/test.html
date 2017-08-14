@@ -1,0 +1,137 @@
+<html><head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Hokus Okus</title>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="css/app.min.css">
+        <link rel="stylesheet" type="text/css" href="../fonts/fonts style.css">
+        <link rel="stylesheet" type="text/css" href="../fonts/icomoon/icons-style.css">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+        <script src="js/hokus.js"></script>
+        <base href="/">
+    <script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps-api-v3/api/js/29/14/common.js"></script><script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps-api-v3/api/js/29/14/util.js"></script><script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps-api-v3/api/js/29/14/stats.js"></script></head>
+    <body>
+    	<div id="content"><div class="container-fluid content">
+    <div class="row row-eq-height">
+        <div class="col-md-2" id="sidebar"><nav class="navbar navbar-inverse sidebar" role="navigation">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-sidebar-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a href="#" onclick="loadHtmlPages('home')"> <img class="logo-mob" src="pictures/logo.png"></a>
+        </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-sidebar-navbar-collapse-1">
+          <ul class="nav navbar-nav text-center">
+            <li><a class="hover" href="#" data-page="food"><span class="svg icon-fire"></span>FOOD</a></li>
+            <li><a class="hover" href="#" data-page="offer"><span class="svg icon-tag"></span>OFFER</a></li>
+            <li><a class="hover" href="#" data-page="location"><span class="svg icon-location"></span>LOCATION</a></li>
+            <li><a class="hover" href="#" data-page="franchise"><span class="svg icon-shop"></span>FRANCHISE
+            </a></li><li><a class="hover" href="#" data-page="blog"><span class="svg icon-news"></span>BLOG</a></li>
+        </ul></div>
+        <ul class="social">
+            <li><span><i class="fa fa-facebook" aria-hidden="true"></i></span></li>
+            <li><span><i class="fa fa-twitter" aria-hidden="true"></i></span></li>
+            <li><span><i class="fa fa-instagram" aria-hidden="true"></i></span></li>
+            <li><span><i class="fa fa-google-plus" aria-hidden="true"></i></span></li>
+            <li><span><i class="fa fa-tripadvisor" aria-hidden="true"></i></span></li>
+        </ul>
+        <ul class="general">
+            <li><a href="#">ABOUT US</a></li>
+            <li><a href="#">CONTACT US</a></li>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">MENU</a></li>
+            <li><a href="#">LEGAL &amp; PRIVACY</a></li>
+        </ul>
+        
+</nav></div>
+        <!--<div class="col-md-4 bg-blog  mobile-hight ">
+            <div class="row">
+                <div class="col-xs-12 bg-prom mobile-pd-t-60 mobile-pd-b-60  ">
+                    <h1 class="text-trans m-fs-30 position-promo ">PROMO <span class="product-span">30%</span> OFF</h1>
+                    <i class="fa fa-chevron-circle-right fl-right fs-30 ft-mobile-15 fs-aw position-center-fra" aria-hidden="true"></i> 
+                </div>
+                <div class="col-xs-12 bg-new  mobile-pd-t-60 mobile-pd-b-60">
+                    <h1 class="m-fs-30 position-icon">NOVO <span class="product-span">U PONUDI</span></h1>
+                    <i class="fa fa-chevron-circle-right fl-right fs-30 ft-mobile-15 fs-aw position-center-fra" aria-hidden="true"></i> 
+                    <i class="fa fa-chevron-circle-right fl-right fs-30 ft-mobile-15 fs-aw position-center-fra" aria-hidden="true"></i>
+                </div>
+                <div class="col-xs-12 bg-trip mobile-pd-t-60 mobile-pd-b-60 ">
+                    <div class="middle"><button type="button" class="btn btn-review">REVIEW US</button> </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 bg-white mobile-hight">
+            <div class="row r-height">
+                <div class="col-sm-6 text-al-left bg-height-blog mobile-pd-t-60 mobile-pd-b-60">
+                    <h1 class="sp-color "><span class=" fs-40 ft-mobile-20 pd-l-20">NOVA MAGIJA</span>  <span src="" class=" pd-l-20 product-span fs-40  ft-mobile-20"></span></h1>
+                    <p class="fs-20 sp-color ft-mobile-15 pd-l-20 ft-cl-franc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ultrices nisl consectetur dui sodales, nec egestas orci aliquet. Integer ut lacus u
+                    </p>
+                    <button type="button" class="btn btn-read">REVIEW US</button>
+                </div>
+                <div class="col-sm-6 bg-magic1 mobile-pd-t-60 mobile-pd-b-60 ">
+                </div>
+                <div class="col-sm-6 bg-tortilla mobile-pd-t-60 mobile-pd-b-60 ">
+                </div>
+                <div class="col-sm-6 text-al-left mobile-pd-t-60 bg-height-blog mobile-pd-b-60">
+                    <h1 class="sp-color "><span class=" fs-40 ft-mobile-20 pd-l-20">NOVA MAGIJA</span>  <span src="" class=" pd-l-20 product-span fs-40  ft-mobile-20"></span></h1>
+                    <p class="fs-20 sp-color ft-mobile-15 pd-l-20 ft-cl-franc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ultrices nisl consectetur dui sodales, nec egestas orci aliquet. Integer ut lacus u
+                    </p>
+                    <button type="button" class="btn btn-read">REVIEW US</button>
+                </div>
+                <div class="col-sm-6 text-al-left mobile-pd-t-60 bg-height-blog mobile-pd-b-60">
+                    <h1 class="sp-color "><span class=" fs-40 ft-mobile-20 pd-l-20">NOVA MAGIJA</span>  <span src="" class=" pd-l-20 product-span fs-40  ft-mobile-20"></span></h1>
+                    <p class="fs-20 sp-color ft-mobile-15 pd-l-20 ft-cl-franc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ultrices nisl consectetur dui sodales, nec egestas orci aliquet. Integer ut lacus u
+                    </p>
+                    <button type="button" class="btn btn-read">REVIEW US</button>
+                </div>
+                <div class="col-sm-6 bg-salata mobile-pd-t-60 mobile-pd-b-60 ">
+                </div>
+            </div>
+        </div>-->
+        <div class="col-md-2">
+            <nav class="navbar navbar-inverse sidebar" role="navigation">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-sidebar-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                </button>
+                <a href="#" onclick="loadHtmlPages('home')"></a>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-sidebar-navbar-collapse-1">
+                    <ul class="nav navbar-nav text-center">
+                        <li><a class="hover" href="#" data-page="offer"><span class="svg icon-Search"></span>SEARCH</a></li>
+                        <li><a class="hover" href="#" data-page="food"><span class="svg icon-Novi-Proizvodi"></span>NOVI PROIZVODI</a></li>
+                        <li><a class="hover" href="#" data-page="offer"><span class="svg icon-Recepti"></span>RECEPTI</a></li>
+                        <li><a class="hover" href="#" data-page="location"><span class="svg icon-shop"></span>FRANCHISE</a></li>
+                        <li>
+                            <a class="hover" href="#" data-page="franchise">
+                            <span class="svg icon-Poslovanje"></span>POSLOVANJE</a>
+                        </li>
+                        <li><a class="hover" href="#" data-page="blog"><span class="svg icon-Partneri"></span>PARTNERI</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </div>
+</div></div>
+		<footer class="hidden-md hidden-lg hidden-sm">  
+        	<ul class="fot-soc ">
+        		<li><span><i class="fa fa-facebook" aria-hidden="true"></i></span></li>
+        		<li><span><i class="fa fa-twitter" aria-hidden="true"></i></span></li>
+        		<li><span><i class="fa fa-instagram" aria-hidden="true"></i></span></li>
+        		<li><span><i class="fa fa-google-plus" aria-hidden="true"></i></span></li>
+        		<li><span><i class="fa fa-tripadvisor" aria-hidden="true"></i></span></li>
+   			 </ul>
+        </footer>
+        <script src="//localhost:35729/livereload.js?snipver=1" async="" defer=""></script>
+        <script src="https://maps.googleapis.com/maps/api/js?key=&amp;callback=initMap"></script>
+    <script src="//localhost:35729/livereload.js?snipver=1" async="" defer=""></script>
+</body></html>

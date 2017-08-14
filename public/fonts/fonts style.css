@@ -1,0 +1,69 @@
+
+@font-face {
+    font-family: 'handelsonfive';
+    src: url('handelson-five_0-webfont.woff2') format('woff2'),
+         url('handelson-five_0-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'handelsonfour';
+    src: url('handelson-four_0-webfont.woff2') format('woff2'),
+         url('handelson-four_0-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'handelsonone';
+    src: url('handelson-one_0-webfont.woff2') format('woff2'),
+         url('handelson-one_0-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'handelsonsix';
+    src: url('handelson-six_0-webfont.woff2') format('woff2'),
+         url('handelson-six_0-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'handelsonthree';
+    src: url('handelson-three_0-webfont.woff2') format('woff2'),
+         url('handelson-three_0-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'handelsontwo';
+    src: url('handelson-two_0-webfont.woff2') format('woff2'),
+         url('handelson-two_0-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
