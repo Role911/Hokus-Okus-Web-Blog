@@ -7,9 +7,8 @@ ul.list-food{
     line-height: 90px;
     font-size: 40px;
 }
-ul.list-food > li >a>{
-	
-    &:hover {
+ul.list-food >li>a{
+	&:hover {
     	color: @orange;
     }
     &:focus {
@@ -32,5 +31,15 @@ span.svg{
 @media only screen and (max-width: 414px) {
 .line-h{
   line-height: 20px !important;
+}
+ul.list-food{
+  font-size: 30px;
+ 
+}
+}
+@media only screen and (max-width: 768px) {
+ul.list-food{
+  line-height: 50px !important;
+
 }
 }

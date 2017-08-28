@@ -14,8 +14,14 @@ h3{
 }
 
 p{
-	font-size: 12px !important;
 	font-weight: normal !important;
+}
+.ft-food{
+  font-size: 50px;
+  text-align: center;
+  color: #c1bbbb !important;
+  margin-top: 20px !important;
+
 }
 
 
@@ -25,10 +31,6 @@ p{
     url('handelson-four_0-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-     position: absolute;
-    left: 50%;
-    top:9%;
-    transform: translate(-50%,-50%);
     text-align: center;
 }
 .product-span{
@@ -40,6 +42,11 @@ p{
 .text-al-left{
   text-align: left;
 }
+.text-al-right{
+  text-align: right;
+
+}
+
 .ft-cl-franc{
   color: #b7bbc2 !important;
 }
@@ -53,8 +60,8 @@ p{
 .fs-40{
   font-size: 40px !important;
 }
-.fs-30{
-  font-size: 30px !important;
+.fs-f-30{
+  font-size: 30px !important; 
 }
 .pd-t-30{
   padding-top: 30px;
@@ -64,6 +71,9 @@ p{
 }
 .pd-r-20{
   padding-right: 20px;
+}
+.pd-t-40{
+  padding-top: 40px;
 }
 .m-b-20{
   margin-bottom: 20px;
@@ -82,6 +92,9 @@ p{
 }
 .fs-aw{
   color: @orange;
+}
+.fs-30{
+  font-size: 30px !important;
 }
 .fs-25{
   font-size: 25px !important;
@@ -104,6 +117,9 @@ p{
 .pd-r-20{
   padding-right: 20px;
 }
+.pd-r-30{
+  padding-right: 30px;
+}
 .ft-18{
   font-size: 18px !important;
   color: #b2b2b2 !important;
@@ -115,6 +131,12 @@ p{
      position: absolute;
     left: 50%;
     top:50%;
+    transform: translate(-50%,-50%);
+}
+.position-center-f{
+     position: absolute;
+    left: 50%;
+    top:35%;
     transform: translate(-50%,-50%);
 }
 p{
@@ -170,11 +192,19 @@ margin-bottom: 0 !important;
 .text-al-center{
     text-align: -webkit-center;
 } 
+@media only screen and (max-width: 1000px) {
+.fs-50{
+  font-size: 50px !important;
+}
+}
 
 @media only screen and (max-height: 768px) {
 .pd-none{
   padding: 0 !important;
   margin: 0 !important;
+}
+.ft-food{
+  font-size: 30px;
 }
 .fl-none{
   float: none;
@@ -198,9 +228,11 @@ margin-bottom: 0 !important;
   min-height:250px;
 }
 .mobile-width{
-  min-width: 300px;
+  min-width: 250px;
 }
-
+.m-0{
+  margin: 0;
+}
 .pd-top-10{
   padding-top: 10px;
 }
@@ -244,14 +276,45 @@ h1.product-span{
 .mobile-hight{
   min-height: 400px;
 }
-.min-height-blog{
-min-height: 150px;
-}
+
 .main-heading {
   font-size: 50px !important;
 }
+.m-p-none{
+  padding: none !important;
+  margin: none !important;
 }
-@media only screen and (max-width: 414px) {
+.fs-f-20{
+  font-size: 20px !important;
+}
+}
+
+@media (max-width: 768px) {
+.mb-ft-20{
+  font-size: 20px;
+}
+.min-height-blog{
+min-height: 150px;
+}
+.min-h-fran{
+  min-height: 250px !important;
+
+}
+.ft-fan-25{
+  font-size: 25px !important;
+}
+.mb-ft-15{
+  font-size: 15px !important;
+}
+.m-p-none{
+  padding: 0 !important;
+  margin: 0 !important;
+}
+.m-b-20{
+margin-bottom: 20px !important;
+}
+}
+@media (max-width: 414px) {
  .main-heading {
     font-size: 20px !important;
   }
@@ -274,16 +337,11 @@ min-height: 150px;
 .m-auto{
   margin: auto ;
 }
-.m-b-20{
-margin-bottom: 20px !important;
+
+.pd-m-r-20{
+  padding-right: 20px !important;
 }
-}
-@media only screen and (max-width: 768px) {
-.mb-ft-20{
+.ft-food{
   font-size: 20px;
 }
-.mb-ft-15{
-  font-size: 15px !important;
-}
-
 }
