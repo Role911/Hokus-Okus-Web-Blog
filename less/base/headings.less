@@ -1,38 +1,40 @@
+@medium: medium;
+@normal: normal;
+@60:60px;
+@50:50px;
+@40:40px;
+@30:30px;
+
 h1 {
-  	font-size: 79px !important;
-  	font-weight: medium !important;
+  	font-size: 79px;
+  	font-weight: @medium ;
 }
 
 h2{
-	font-size: 26px !important;
-  	font-weight: medium !important;
+	font-size: 26px;
+  	font-weight: @medium;
 }
 
 h3{
-	font-size: 16px !important;
-  	font-weight: medium !important;
+	font-size: 16px ;
+  	font-weight: @medium;
 }
 
 p{
-	font-weight: normal !important;
+	font-weight: @normal;
 }
-.ft-food{
-  font-size: 50px;
-  text-align: center;
-  color: #c1bbbb !important;
-  margin-top: 20px !important;
-
-}
-
-
-.product-heading{
-    font-family: 'handelsonfour';
-    src: url('handelson-four_0-webfont.woff2') format('woff2'),
-    url('handelson-four_0-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+ .ft-food {
+    font-size: 37px;
     text-align: center;
+    color: #c1bbbb;
+    margin-top: 13px;
+    margin-bottom: 10px;
 }
+
+.pd-0{
+  padding: 0 !important;
+}
+
 .product-span{
   color: @orange;
 }
@@ -40,93 +42,90 @@ p{
   color:#262221;
 }
 .text-al-left{
-  text-align: left;
+  text-align: @left;
 }
 .text-al-right{
-  text-align: right;
-
+  text-align: @right;
 }
 
 .ft-cl-franc{
-  color: #b7bbc2 !important;
+  color: #b7bbc2 ; 
 }
 
 .fs-20{
-  font-size: 20px !important;
+  font-size: @20;
 }
 .fl-right{
   float: right;
 }
 .fs-40{
-  font-size: 40px !important;
+  font-size: @40;
 }
 .fs-f-30{
-  font-size: 30px !important; 
+  font-size: @30; 
 }
 .pd-t-30{
-  padding-top: 30px;
+  padding-top: @30;
 }
 .pd-b-30{
-  padding-bottom: 30px;
+  padding-bottom: @30;
 }
 .pd-r-20{
-  padding-right: 20px;
+  padding-right: @20;
 }
 .pd-t-40{
-  padding-top: 40px;
+  padding-top: @40;
 }
 .m-b-20{
-  margin-bottom: 20px;
+  margin-bottom: @20;
 }
 .m-t-20{
-  margin-top: 20px;
+  margin-top: @20;
 }
 .m-t-40{
-  margin-top: 40px;
+  margin-top: @40;
 }
 .m-t-50{
-  margin-top: 50px;
+  margin-top: @20;
 }
 .pd-l-20{
-  padding-left: 20px;
+  padding-left: @20;
 }
-.fs-aw{
-  color: @orange;
+.ft-c-o{
+  color: @orange; //
 }
 .fs-30{
-  font-size: 30px !important;
+  font-size: @30 !important;
 }
 .fs-25{
-  font-size: 25px !important;
+  font-size: 25px ;
 }
 .fs-20{
-  font-size: 20px !important;
+  font-size: @20 ;
 }
 .pd-t-60{
-  padding-top: 60px; 
+  padding-top: @60; 
 }
 .pd-b-60{
-  padding-bottom: 60px;
+  padding-bottom: @60;
 }
 .fl-right{
   float: right;
 }
 .fl-left{
-  float: left;
+  float: @left;
 }
 .pd-r-20{
-  padding-right: 20px;
+  padding-right: @20;
 }
 .pd-r-30{
-  padding-right: 30px;
+  padding-right: @30;
 }
 .ft-18{
-  font-size: 18px !important;
-  color: #b2b2b2 !important;
+  font-size: 18px ;
+  color: #b2b2b2 ;
 }
-.display{
-  display: table;
-}
+
 .position-center-fra{
      position: absolute;
     left: 50%;
@@ -134,7 +133,7 @@ p{
     transform: translate(-50%,-50%);
 }
 .position-center-f{
-     position: absolute;
+     position: @absolute;
     left: 50%;
     top:35%;
     transform: translate(-50%,-50%);
@@ -146,7 +145,7 @@ p{
   color: #b7bbc2;
 }
 .position-icon{
-   position: absolute;
+   position: @absolute;
     left: 50%;
     top:50%;
     transform: translate(-50%,-50%);
@@ -155,26 +154,34 @@ p{
   margin-top: 0;
 }
 .position-icon-left{
-    position: absolute;
+    position: @absolute;
     left: 95%;
     top:50%;
     transform: translate(-50%,-50%);
 }
 .position-icon-right{
-   position: absolute;
+   position: @absolute;
     right: 0%;
     top:80%;
     transform: translate(-50%,-50%);
 }
 .position-promo{
-  position: absolute;
-    left: 34%;
+  position: @absolute;
+    left: 50%;
+    top:10%;
+    transform: translate(-50%,-50%);
+    text-align: @center;
+}
+.position-offer{
+  position: @absolute;
+    left: 30%;
     top:5%;
     transform: translate(-50%,-50%);
-    text-align: center;
+    text-align: @center;
 }
+
 .m-b-blog{
-margin-bottom: 0 !important;
+margin-bottom: 0 ;
 }
 .text-trans{
   /* Safari */
@@ -194,23 +201,23 @@ margin-bottom: 0 !important;
 } 
 @media only screen and (max-width: 1000px) {
 .fs-50{
-  font-size: 50px !important;
+  font-size: 35px ;
 }
 }
 
 @media only screen and (max-height: 768px) {
-.pd-none{
-  padding: 0 !important;
-  margin: 0 !important;
+.pd-none{ 
+  padding: 0 ;
+  margin: 0 ;
 }
 .ft-food{
-  font-size: 30px;
+  font-size: @30;
 }
 .fl-none{
-  float: none;
+  float: @none;
 }
 .margin-none{
-  margin: none !important;
+  margin: @none ;
 }
 .mobile-pd-left-10{
   padding-left: 10px;
@@ -222,7 +229,7 @@ margin-bottom: 0 !important;
   min-height: 400px;
 }
 .mobile-hight-food{
-  min-height: 300px;
+  min-height: 350px;
 }
 .mobile-hight-food2{
   min-height:250px;
@@ -237,23 +244,23 @@ margin-bottom: 0 !important;
   padding-top: 10px;
 }
 h1.product-span{
-  font-size: 30px !important;
+  font-size: @30 ;
 }
 
 .margin-mobile-20{
-  margin-top: 20px;
+  margin-top: @20;
 }
 .ft-food-col{
-  color: #262221 !important;
+  color: #262221 ;
 }
 .pd-top-20{
-  padding-top: 20px !important;
+  padding-top: @20 ;
 }
 .margin-bottom{
-  margin-bottom: 30px !important;
+  margin-bottom: @30 ;
 }
 .mobile-pd-30{
-  padding-bottom: 30px;
+  padding-bottom: @30;
 }
 .mobile-pd-t-60{
   padding-top: 63px;
@@ -262,86 +269,98 @@ h1.product-span{
   padding-bottom: 71px;
 }
 .blog-dis{
-  display: none;
+  display: @none;
 }
  .main-heading {
-    font-size: 40px !important;
+    font-size: @40; //
 }
 .m-fs-60{
-  font-size: 60px !important;
+  font-size: @60 ;
 }
 
 }
 @media only screen and (max-height: 766px) {
 .mobile-hight{
-  min-height: 400px;
+  min-height: 400px; //
 }
 
-.main-heading {
-  font-size: 50px !important;
-}
 .m-p-none{
-  padding: none !important;
-  margin: none !important;
-}
+  padding: @none ;
+  margin: @none ; //
+} 
 .fs-f-20{
-  font-size: 20px !important;
+  font-size: @20 ;
 }
+
 }
 
 @media (max-width: 768px) {
 .mb-ft-20{
-  font-size: 20px;
+  font-size: @20;
 }
 .min-height-blog{
 min-height: 150px;
 }
 .min-h-fran{
-  min-height: 250px !important;
+  min-height: 250px ;
 
 }
 .ft-fan-25{
-  font-size: 25px !important;
+  font-size: 25px ;
 }
 .mb-ft-15{
-  font-size: 15px !important;
+  font-size: 15px !important; //
 }
 .m-p-none{
-  padding: 0 !important;
-  margin: 0 !important;
+  padding: 0 ;
+  margin: 0 ;
 }
 .m-b-20{
-margin-bottom: 20px !important;
+margin-bottom: @20 ;
 }
+
 }
 @media (max-width: 414px) {
  .main-heading {
-    font-size: 20px !important;
+    font-size: @20 ;
   }
   .ft-mobile-20{
-  font-size: 20px !important;
+  font-size: @20 !important;
 }
 .ft-mobile-15{
-  font-size: 15px !important;
+  font-size: 15px !important ; //
 }
 .m-fs-30{
-  font-size: 30px !important;
+  font-size: @30 ; //
 }
-.position-promo{
-  position: absolute;
-    left: 50%;
-    top:46%;
-    transform: translate(-50%,-50%);
-    text-align: center;
-}
+
 .m-auto{
   margin: auto ;
 }
 
 .pd-m-r-20{
-  padding-right: 20px !important;
+  padding-right: @20 ;
 }
 .ft-food{
-  font-size: 20px;
+  font-size: 25px;
+}
+}
+
+@media (min-width: 768px) {
+.position_food{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+}
+}
+@media (max-width: 600px) {
+.position-promo{
+  position: @absolute;
+    left: 50%;
+    top:20%;
+    transform: translate(-50%,-50%);
+    text-align: @center;
 }
 }
