@@ -2,11 +2,23 @@
  * Row with equal height columns
  * --------------------------------------------------
  */
+.row-eq-height{
+  height: 100%;
+}
+.row-eq-height{
+  align-items: stretch;
+}
+  #content{
+  height: 100%;
+}
+.content{
+  height: 100%;
+}
+
 
 @media(min-width: 768px) {
-    
-    .row-eq-height {
-            display: -webkit-box;
+  .row-eq-height {
+     display: -webkit-box;
         display:    -moz-box;
         display:     -ms-box;
         display:         box;
@@ -14,10 +26,15 @@
         display:    -moz-flex;
         display:     -ms-flex;
         display:         flex;
-  
+        align-items: stretch;
 
-    } 
 }
+
+.height-row{
+  height: initial !important;
+}
+}
+
 
 
 /*
@@ -26,7 +43,9 @@
 .container {
   padding-right: @15;
   padding-left: @15;
+
 }
+
 
 h4 {
   margin-top: 25px;
