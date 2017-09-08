@@ -44,7 +44,22 @@
 		    	padding-left: 3px;
    				 padding-right: 3px;
 		    }
-		    ul li a span
+		    ul>li>a{
+		    	&:hover {
+    		color: @orange;
+    		}
+  		  &:focus {
+				color: @orange;
+   			 }
+   			 &:selected {
+				color: @orange;
+   				 }
+   			 &:focus {
+				color: @orange;
+   				 }
+		    }
+
+		    ul>li>a>span
 		    {
 		    	display: block;
 		    	margin: 0 auto;
